@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE-edge">
+	<title>Pengantar Javascript</title>
+	<link rel="stylesheet" type="text/css" href="">
+	<script>
+		let namaLengkap;
+		namaLengkap = "Fahmi Manurung";
+		let tahunLahir = 2005;
+		let = tahunSekarang = 2023;
+		let usia = tahunSekarang - tahunLahir;
+		console.log(namaLengkap);
+		console.log(usia);
+
+		//menampilkan output pd js dgn document.write()
+		var programStudi = "Sistem Informasi";
+		var kelas = "SI-3N";
+		var jabatan = "Dosen Tetap";
+		document.write("Nama Saya :" +namaLengkap+ "<br>");
+		document.write("Sedangan Mengajar di kelas :" + kelas+"<br>");
+		document.write("Program Studi :" +programStudi +"<br>");
+	</script>
+
+	<style>
+	body{
+		animation-name: bg;
+		animation-duration: 4s;
+		animation-iteration-count: infinite;
+	}
+	#sub-judul {
+		position: relative;
+	}
+		@keyframes atasbawah{
+			from {left: 0px;}
+			to {left: 200px;}
+		}
+		@keyframes bg {
+			0% {background-color: red;}
+			25% {background-color: yellow;}
+			50% {background-color: blue;}
+
+		}
+	</style>
+
+</head>
+<body onload="alert('Selamat Datang di Materi Pengantar Javascript'>">
+	<h2>Penerapan Javascript</h2>
+	<p>Penerapan Javascript dapat dilakukan dengan 3 cara: 
+	<br>Inline, Internal dan External</br></p>
+	<hr>
+	<h1 id="judul"></h1>
+	<h1 id="sub-judul">Contoh Penerapan DOM HTML dan CSS</h1>
+	<button onclick="darkMode()">Mode Gelap</button>
+	<button onclick="lightMode()">Mode Terang</button>
+</body>
+</html>
+<!-- contoh eksternal js -->
+<script src="Pertemuan4.js" type="text/javascript"></script>

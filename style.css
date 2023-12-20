@@ -1,0 +1,93 @@
+*body{
+	margin: 0px;
+}
+
+.grid{
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-gap: 10px;
+	background-color: #87811c;
+	text-align: center;
+}
+
+.kiri{
+	grid-column: 1/2;
+	background-color: #525137;
+}
+
+.tengah{
+	grid-column: 2/3;
+	background-color: #233b68;
+}
+
+.kanan{
+	grid-column: 3/4;
+	background-color: #1e5362;
+}
+
+.kiri-bawah{
+	grid-column: 1/2;
+	background-color: #525137;
+}
+
+.tengah-bawah{
+	grid-column: 2/3;
+	background-color: #233b68;
+}
+
+.kanan-bawah{
+	grid-column: 3/4;
+	background-color: #1e5362;
+}
+
+/* css Layout-grid*/
+header{
+	padding: 16px;
+	background-color: #293163;
+	color: #fff;
+	text-align: center;
+	font-family: Arial;
+}
+
+nav{
+	padding: 12px;
+	background-color: #48494f;
+	text-align: center;
+}
+
+nav a{
+	font-family: Arial;
+	text-decoration: none;
+	padding: 8px;
+}
+#grid-container{
+	display: grid;
+	grid-template-columns: auto auto auto;
+	column-gap: 20px;
+}
+#top-left-content{
+	grid-row: 1/4;
+	background-color: #1d1f2d;
+	padding: 15px;
+	color: #128b12;
+}
+#top-center-content{
+	grid-column: 2/3;
+	background-color: #1d1f2d;
+	padding: 15px;
+	color: #128b12;
+}
+#top-right-content{
+	grid-column: 3/4;
+	background-color: #1d1f2d;
+	padding: 15px;
+	color: #128b12;
+}
+
+footer{
+	padding: 12px;
+	background-color: #48494f;
+	text-align: center;
+	font-family: Arial;
+	color: #8089c3;
+}
